@@ -1,0 +1,83 @@
+.bookcard {
+    display: flex;
+}
+
+.cardbox {
+    display : flex;
+    flex-direction: row;
+}
+
+.showbook {
+    display : flex;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+    margin-top : 50px;
+    margin-bottom : 50px;
+    height : 300px;
+    width : 200px;
+    background : rgb(194, 194, 194);
+    border-radius : 5px;
+    box-shadow: 0 2px 5px 0 rgba(211, 209, 238, 0.5);
+    align-items : center;
+}
+
+.align {
+    height : 400px;
+    padding-top : 40px;
+}
+
+.cover  {
+    background-size: cover;
+    height : 170px;
+    width : 140px;
+    box-shadow: 0 2px 5px 0 rgba(211, 209, 238, 0.5);
+    border-radius : 5px;
+    font-size : 12px;
+}
+
+.booktitle {
+    margin : 10px;
+    font-size: 12px;
+    font-weight : bold;
+}
+
+.author_name {
+    font-size: 12px;
+    margin-bottom : 10px;
+}
+
+@media screen and (max-width : 400px) {
+    .showbook {
+    margin-top : -15px;
+    margin-bottom : 30px;
+    height : 300px;
+    width : 200px;
+    border-radius : 5px;
+    }
+
+    .showbook {
+        padding-top : 10px;
+        height : 190px;
+        width : 115px;
+    }
+
+    .align {
+        padding-top : 10px;
+    }
+
+    .cover {
+        height : 110px;
+        width : 70px;
+    }
+
+    .booktitle {
+        font-size : 9px;
+        font-weight : bold;
+        margin : 5px 5px 0px 5px;
+    }
+
+    .author_name {
+        font-size : 9px;
+        margin : 5px;
+    }
+}

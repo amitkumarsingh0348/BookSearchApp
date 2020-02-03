@@ -1,0 +1,78 @@
+.position {
+    width : 100%;
+    position: fixed;
+    background-color: white;
+}
+
+.tagcontainer {
+    font-family: 'Montserrat', sans-serif;
+    display : flex;
+    height : 70px;
+    align-items: center;
+}
+
+.back {
+    padding-right : 20px;
+    cursor: pointer;
+
+}
+
+.backarrow {
+    height : 25px;
+    transition-property: height;
+    transition-duration: 200ms;
+}
+
+.backarrow:hover {
+    height : 30px;
+}
+
+.sectionname {
+    font-weight: bold;
+    cursor: default;
+}
+
+.bookbackground {
+    padding-top: 160px;
+    background: #F0F0F6;
+    
+}
+
+.loading {
+    display : flex;
+    flex-wrap : wrap;
+    justify-content: space-around
+}
+
+.load {
+    background: url("../icons/loading.gif") center no-repeat;
+    margin-top : 250px;
+    height : 400px;
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width : 400px) {
+    .position {
+        padding-top : 20px;
+        height : 130px;
+    }
+
+    .tagcontainer {
+        margin-bottom: 10px;
+        height : 40px;
+    }
+
+    .sectionname {
+        font-size: 12px;
+    }
+
+    .load {
+        height : 200px;
+        background-size: 300px;
+    }
+
+    .backarrow {
+        height : 13px;
+    }
+}

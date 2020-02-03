@@ -1,0 +1,23 @@
+.textbox {
+    background-image: url("../icons/Search.svg");
+    background-repeat: no-repeat;
+    background-position: 8px 7px;
+    background-size: 20px;
+    border-radius : 5px;
+    Padding-left : 40px;
+    height : 40px;
+    width : 100%;
+    border : none;
+    font-size : 16px;
+    margin-bottom: 40px;
+    background-color : #F0F0F6;
+    outline : none;
+}
+
+@media screen and (max-width : 400px) {
+    .textbox {
+        height : 30px;
+        background-size: 15px;
+        font-size : 13px;
+    }
+}
